@@ -11,10 +11,13 @@ import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    var window: UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        TSBaseService.host = "https://api.github.com/"
+        let rootViewController = UsersViewController()
+        let navigationController: BaseNavigationController = BaseNavigationController(rootViewController: rootViewController)
+        window?.rootViewController = navigationController
+        window?.makeKeyAndVisible()
         // Override point for customization after application launch.
         return true
     }
@@ -77,6 +80,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
 }
 

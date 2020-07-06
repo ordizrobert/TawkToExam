@@ -1,0 +1,26 @@
+PODS:
+  - JGProgressHUD (2.1)
+  - ReachabilitySwift (4.2.1)
+  - SDWebImage (4.4.8):
+    - SDWebImage/Core (= 4.4.8)
+  - SDWebImage/Core (4.4.8)
+
+DEPENDENCIES:
+  - JGProgressHUD
+  - ReachabilitySwift (= 4.2.1)
+  - SDWebImage (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - JGProgressHUD
+    - ReachabilitySwift
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  JGProgressHUD: aa403e9a5b45cae98903c4600cccdd98c0c3ec90
+  ReachabilitySwift: 35720ffea59c1c76d15f885be77fd33e33985427
+  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
+
+PODFILE CHECKSUM: c1d447d6aa535f4c5936139c682eb1c134c98574
+
+COCOAPODS: 1.8.4
